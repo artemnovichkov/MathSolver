@@ -15,6 +15,6 @@ them to the lowest possible form.
   s.source_files = 'MathSolver/**/*.{h,m}'
   s.prefix_header_file = 'Log.pch'
   s.private_header_files = 'MathSolver/**/internal/*.h', 'MathSolver/analysis/rules/*.h'
-  s.dependency 'iosMath', '~> 0.7.2'
+  s.dependency 'iosMath'
   s.requires_arc = true
 end
